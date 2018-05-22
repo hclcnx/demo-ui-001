@@ -1,0 +1,254 @@
+.xccTHIcon {
+	background-image: url("/com.ibm.lconn.core.styles.oneui3/hikariTheme/images/flyout.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	height: 16px;
+	margin: 2px 0 0 0;
+	width: 16px;
+}
+body.lotusui30 .ics-scbanner .org._myorg {
+    border-bottom: 5px solid transparent;
+    border-left: 0px solid #fff;
+    color: transparent !important;
+    font-size: 1em;
+    line-height: 1;
+    font-weight: 400;
+    background-image: url(/xcc/rest/public/custom/demo001.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    top: 2px;
+    height: 30px;
+    position: relative;
+    left: -5px;
+    margin-top: 0px;
+    width: 100px;
+}
+body.lotusui30 .lotusBanner,
+body.lotusui30 .ics-scbanner {
+    background: #fff;
+    height: 50px;
+}
+body.lotusui30 div.lotusBanner .lotusRightCorner,
+body.lotusui30 .ics-scbanner .lotusRightCorner {
+    background: #fff;
+}
+/* underscore color beneath selected "XCC" in main nav bar */
+body.lotusui30 .ics-scbanner ul.lotusInlinelist li a:active, 
+body.lotusui30 .ics-scbanner ul.lotusInlinelist li a:focus, 
+body.lotusui30 .ics-scbanner ul.lotusInlinelist li a:hover, 
+body.lotusui30 .ics-scbanner ul.lotusInlinelist li.lotusSelected a {
+    border-bottom-color: #b3a895;
+}
+/* links in main nav at top, all states */
+body.lotusui30 .ics-scbanner ul.lotusInlinelist li a:active,
+body.lotusui30 .ics-scbanner ul.lotusInlinelist li a:focus,
+body.lotusui30 .ics-scbanner ul.lotusInlinelist li a:hover,
+body.lotusui30 .ics-scbanner ul.lotusInlinelist li.lotusHover a {
+    background: #fff;
+    color: #ddd;
+}
+/* "share" button in main banner, normal */
+body.lotusui30 .ics-scbanner ul.lotusInlinelist li a.lotusBannerBtn {
+    background: #fff;
+    border-color: #777;
+}
+/* "share" button in main banner, hover */
+body.lotusui30 .ics-scbanner ul.lotusInlinelist li a.lotusBannerBtn:hover {
+    background: #555;
+    border-color: #777;
+}
+body.lotusui30 .ics-scbanner img.lotusDropDownSprite{
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    margin-left: 3px;
+}
+body.lotusui30 .ics-scbanner ul.lotusInlinelist li:not(.shareboxLi) a:active::before, 
+body.lotusui30 .ics-scbanner ul.lotusInlinelist li:not(.shareboxLi) a:focus::before, 
+body.lotusui30 .ics-scbanner ul.lotusInlinelist li:not(.shareboxLi) a:hover::before{
+    border-color: #eee;
+}
+body.lotusui30 .ics-scbanner ul.lotusInlinelist.lotusLinks li.lotusSelected::after {
+    border-color: #eee;
+}
+body .search-history-view-ui .lotusui30 .icSearchPaneButton {
+    background-color: #fff;
+    outline-color: #fff;
+}
+body.lotusui30 .lconnUploadContainer .lotusBtn,
+body.lotusui30 .lotusDialog .lotusDialogHeader {
+    background-color: #fff;
+}
+body.lotusui30 .hikari.ics-scbanner > a, 
+body.lotusui30 .ics-scbanner > a + .navmenu,
+body.lotusui30 .hikari.ics-scbanner > a:visited, 
+body.lotusui30 .gen4.ics-scbanner > a, 
+body.lotusui30 .gen4.ics-scbanner > a:visited, 
+body.lotusui30 .colour.ics-scbanner > a, 
+body.lotusui30 .colour.ics-scbanner > a:visited,
+body.lotusui30 .hikari.ics-scbanner > .navmenu + .navmenu {
+    color: #aaa!important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+body.lotusui30 .ics-scbanner svg {
+    fill: #aaa!important;
+}
+body.lotusui30 .hikari.ics-scbanner > a:hover, 
+body.lotusui30 .hikari.ics-scbanner > a:focus, 
+body.lotusui30 .hikari.ics-scbanner > a:active, 
+body.lotusui30 .hikari.ics-scbanner > a + .navmenu:hover,
+body.lotusui30 .hikari.ics-scbanner > .navmenu + .navmenu:hover,
+body.lotusui30 .colour.ics-scbanner > a:hover, 
+body.lotusui30 .colour.ics-scbanner > a:focus, 
+body.lotusui30 .colour.ics-scbanner > a:active {
+    color: #dc1234!important;
+}
+body.lotusui30 .ics-scbanner > a:hover::after, 
+body.lotusui30 .ics-scbanner > button:hover::after, 
+body.lotusui30 .ics-scbanner > .navmenu:hover::after {
+    border-bottom: 0.25rem solid #ddd;
+}
+body.lotusui30 .ics-scbanner > .selected::after {
+    border-bottom: 0.25rem solid #ccc;
+}
+body.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging,
+body .lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight {
+    background: #bbb;
+}
+body .otherActivityStream14-asKnockedfin14 {
+    width: 14px;
+    height: 8px;
+    background-position: 0 -65px;
+    background-color: #bbb;
+}
+body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a {
+    color: #555;
+}
+body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a.filterSelected {
+    color: #222;
+}
+body.lotusui30 .lotusPaging .lotusInlinelist li {
+    border-left-color: #eee;
+}
+body.lotusui30 a, 
+body.lotusui30 a:visited {
+    color: #999;
+}
+body.lotusui30 a:hover, 
+body.lotusui30 a:active {
+    color: #dc1234;
+}
+body.lotusui30 .lotusMenu li.lotusSelected {
+    border-left: 4px solid #eee;
+}
+body.lotusui30 .hikari.ics-scbanner > a.nav-tooltip {
+    opacity: .35;
+    background-image: url(/xcc/rest/public/custom/WordBubbleIcon.gif);
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+    background-size: 85%;
+}
+body.lotusui30 .hikari.ics-scbanner > a.nav-tooltip img {
+    display:none;
+}
+body.lotusui30 .hikari.ics-scbanner > a.nav-tooltip:hover {
+    opacity:.95;
+}
+.search-history-view-ui body.lotusui30 .icSearchPaneButton {
+    top: 20px;
+    background-color: #999;
+    outline: #999 solid 1px;
+}
+body.lotusui30 .lotusPlaceBar .lotusInlinelist li a, 
+.lotusui30 .lotusPlaceBar .lotusInlinelist li a:visited {
+    color: #999;
+}
+body.lotusui30 .lotusPlaceBar .lotusInlinelist li {
+    border-left-color: #ddd;
+}
+body.lotusui30 .lotusMain span.lotusBtn a {
+    background-color: #fff;
+    color: #999;
+    border-radius: 0;
+    background-image: none;
+    box-shadow: 0 0 0 1px #999 inset;
+    display: block;
+}
+body.lotusui30 .lotusColLeft a.lotusF1, 
+body.lotusui30 .lotusColLeft a.lotusF1:visited,  
+body.lotusui30 .lotusColLeft a.lotusF2,   
+body.lotusui30 .lotusColLeft a.lotusF2:visited,   
+body.lotusui30 .lotusColLeft a.lotusF3,   
+body.lotusui30 .lotusColLeft a.lotusF3:visited,   
+body.lotusui30 .lotusColLeft a.lotusF4,   
+body.lotusui30 .lotusColLeft a.lotusF4:visited,   
+body.lotusui30 .lotusColLeft a.lotusF5,   
+body.lotusui30 .lotusColLeft a.lotusF5:visited {
+    color: #888;
+}
+body.lotusui30 .lotusTabContainer {
+    border-bottom-color: #bbb;
+}
+body.lotusui30 .lotusTabs li.lotusSelected,
+body.lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected .lotusTab,
+body.lotusui30 .lotusTitleBar2 .lotusNavTabs {
+    border-bottom-color: #999;
+}
+body.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .lotusCommentList .lotusInlinelist .lotusLike a, 
+body.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .lotusInlinelist.lotusActions .vcard a,  
+body.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .lotusPostHover .lotusInlinelist.lotusActions a {
+    color: #999;
+}
+body.lotusui30 .lotusPlaceBar .lotusBtn {
+    background: #fff;
+}
+body.lotusui30 .lotusPlaceBar .lotusBtn:active,
+body.lotusui30 .lotusPlaceBar .lotusBtn:hover {
+    background: #444;
+}
+.lconnFiles body.lotusui30 .lotusMenu div[class~=lotusSelected] {
+    font-weight: 700;
+    border-left: 4px solid #eee;
+}
+body.lotusui30 .lotusMain span.lotusBtn a:focus, 
+body.lotusui30 .lotusMain span.lotusBtn a:hover {
+    box-shadow: 0 0 0 2px #bbb inset;
+    background: #fff;
+    color: #dc1234;
+}
+body.lotusui30 .lotusBtn:not(#createPlaceButton):not(#lconn_act_StartActivityButton_0) {
+    background-color: #fff;
+    color: #dc1234;
+    box-shadow: 0 0 0 1px #bbb inset;
+}
+/* hide blank left column */
+body .lotusui30_layout.lotusCommunities .lotusColLeft {
+   
+}
+body .lotusCommunities #lotusMainColumns {
+    margin-left: 0;
+}
+/* update headers */
+body.lotusui30 .tabNavBar .tabNavCommunityName {
+    font-size: 28px;
+    font-weight: 300;
+}
+body .ics-scbanner .admin {
+    -webkit-order: 210000;
+    order: 210000;
+    color: #aaa;
+    padding-top: 0;
+}
+body .ics-scbanner {
+    background-color: #fff !important;
+    height: 40px !important;
+    box-shadow: 0 0 12px rgba(0,0,0,0.4);
+}
+body .ics-scbanner .help .help-image, 
+body .ics-scbanner #headerHelpLi a .help-image {
+    visibility: visible!important;
+}
+body .ics-scbanner .notifications .navmenu-button {
+    stroke: #ccc;
+}
