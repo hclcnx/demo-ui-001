@@ -9,11 +9,11 @@
 body.lotusui30 .ics-scbanner .org._myorg {
     border-bottom: 5px solid transparent;
     border-left: 0px solid #fff;
-    color: transparent !important;
+    /* color: transparent !important; */
     font-size: 1em;
     line-height: 1;
     font-weight: 400;
-    background-image: url(/xcc/rest/public/custom/demo001.svg);
+    /* background-image: url(/xcc/rest/public/custom/demo001.svg); */
     background-size: contain;
     background-repeat: no-repeat;
     background-color: transparent;
